@@ -11,11 +11,11 @@ npm install react-native-newme-sdk
 ## Usage
 
 ```js
-import { multiply } from 'react-native-newme-sdk';
+import { getCategories } from 'react-native-newme-sdk';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await getCategories();
 ```
 
 ## Contributing
