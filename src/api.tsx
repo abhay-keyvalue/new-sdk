@@ -13,7 +13,7 @@ export const getCategories = async () => {
 
 export const getShop = async (params: ShopParams) => {
   try {
-    const response = await fetch(`${BASE_URL}/shop`, {
+    const response = await fetch(`${BASE_URL}/products`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
